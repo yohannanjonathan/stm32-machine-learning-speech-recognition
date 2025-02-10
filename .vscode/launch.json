@@ -6,7 +6,7 @@
             "type": "cortex-debug",
             "servertype": "openocd",
             "request": "launch",
-            "executable": "${workspaceFolder}/build/Debug/stm32-machine-learning-speech-recognition.elf",
+            "executable": "${command:cmake.launchTargetPath}",
             "configFiles": [
                 "interface/stlink.cfg",
                 "target/stm32f4x.cfg"
