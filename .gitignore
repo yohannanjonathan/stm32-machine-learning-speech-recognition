@@ -2,5 +2,6 @@
 
 .venv/
 speech_commands_v0.02/
+build/
 
 *.npz
